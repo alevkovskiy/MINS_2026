@@ -1,0 +1,66 @@
+{
+  "order": [
+    "1",
+    "4",
+    "55",
+    "919",
+    "33"
+  ],
+  "items": [
+    {
+      "type": "food",
+      "base": {
+        "id": "1",
+        "name": "Молоко",
+        "category": "Food",
+        "quantity": 10,
+        "price": 100
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "electronics",
+      "base": {
+        "id": "4",
+        "name": "Ноутбук",
+        "category": "Electronics",
+        "quantity": 5,
+        "price": 50000
+      },
+      "warranty_months": 12
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "55",
+        "name": "Кукуруза",
+        "category": "Food",
+        "quantity": 4,
+        "price": 200
+      },
+      "expiry_date": "2026-05-10"
+    },
+    {
+      "type": "electronics",
+      "base": {
+        "id": "919",
+        "name": "Наушники",
+        "category": "Electronics",
+        "quantity": 2,
+        "price": 10000
+      },
+      "warranty_months": 12
+    },
+    {
+      "type": "chemicals",
+      "base": {
+        "id": "33",
+        "name": "Кислота",
+        "category": "Chemicals",
+        "quantity": 234,
+        "price": 22
+      },
+      "hazard_level": 5
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "order": [
+    "1",
+    "4",
+    "3",
+    "89",
+    "98",
+    "32",
+    "33",
+    "34",
+    "9",
+    "10",
+    "11",
+    "12"
+  ],
+  "items": [
+    {
+      "type": "food",
+      "base": {
+        "id": "1",
+        "name": "Молоко",
+        "category": "Food",
+        "quantity": 3,
+        "price": 100
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "electronics",
+      "base": {
+        "id": "4",
+        "name": "Ноутбук",
+        "category": "Electronics",
+        "quantity": 5,
+        "price": 50000
+      },
+      "warranty_months": 12
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "3",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "89",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "98",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "32",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "33",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "34",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "9",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "10",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "11",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    },
+    {
+      "type": "food",
+      "base": {
+        "id": "12",
+        "name": "Мясо",
+        "category": "Food",
+        "quantity": 3,
+        "price": 1000
+      },
+      "expiry_date": "2026-04-05"
+    }
+  ]
+}

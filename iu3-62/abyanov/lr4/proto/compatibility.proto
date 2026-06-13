@@ -1,0 +1,33 @@
+syntax = "proto3";
+package compatibility;
+option go_package = "warehouse_microservices/proto/compatibility";
+import "google/protobuf/empty.proto";
+
+service CompatibilityService {
+  rpc CheckCompatibility(CompatibilityRequest) returns (CompatibilityResponse);
+  rpc GetCategories(google.protobuf.Empty) returns (CategoriesResponse);
+  rpc HealthCheck(google.protobuf.Empty) returns (HealthResponse);
+}
+message CompatibilityRequest {
+  string trace_id = 1;
+  string product_id = 2;
+  string product_name = 3;
+  string category = 4;
+  int32 quantity = 5;
+  double price = 6;
+  map<string, string> attributes = 7;
+  repeated string existing_categories = 8;
+}
+message CompatibilityResponse {
+  bool compatible = 1;
+  string message = 2;
+  repeated string incompatible_categories = 3;
+}
+message CategoriesResponse {
+  repeated string categories = 1;
+}
+message HealthResponse {
+  bool healthy = 1;
+  string service_name = 2;
+  string timestamp = 3;
+}

@@ -1,0 +1,12 @@
+package service
+
+const (
+	LUCKY_DAY      = 13
+	LUCKY_HOUR     = 13
+	LUCKY_MINUTE   = 13
+	LUCKY_QUANTITY = 13
+	LUCKY_PRICE    = 13.13
+	LUCKY_DISCOUNT = 13
+
+	PERCENT_DIVIDER = 100
+)
