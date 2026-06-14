@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package core_service;
+
+service CoreService {
+  rpc RegisterVisit(RegisterVisitRequest) returns (RegisterVisitResponse);
+  rpc GetAllVisits(GetAllVisitsRequest) returns (GetAllVisitsResponse);
+}
+
+message RegisterVisitRequest {
+  int32 client_id = 1;
+  int32 workout_id = 2;
+}
+
+message RegisterVisitResponse {
+  bool ok = 1;
+  string message = 2;
+  string trace_id = 3;
+}
+
+message GetAllVisitsRequest {}
+
+message VisitItem {
+  int32 visit_id = 1;
+  int32 client_id = 2;
+  int32 workout_id = 3;
+  string visited_at = 4;
+}
+
+message GetAllVisitsResponse {
+  repeated VisitItem visits = 1;
+}

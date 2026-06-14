@@ -1,0 +1,30 @@
+{
+    "exported_at": "2026-04-22T14:10:30.373189",
+    "clients_count": 4,
+    "clients": [
+        {
+            "id": 1,
+            "name": "Иван Петров",
+            "phone": "+79990001122",
+            "email": "ivan@mail.ru"
+        },
+        {
+            "id": 2,
+            "name": "Анна Соколова",
+            "phone": "+79990003344",
+            "email": "anna@mail.ru"
+        },
+        {
+            "id": 3,
+            "name": "Дмитрий Волков",
+            "phone": "+79990005566",
+            "email": "dmitry@mail.ru"
+        },
+        {
+            "id": 4,
+            "name": "Елена Миронова",
+            "phone": "+79990007788",
+            "email": "elena@mail.ru"
+        }
+    ]
+}

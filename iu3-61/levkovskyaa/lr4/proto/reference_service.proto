@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package reference_service;
+
+service ReferenceService {
+  rpc ValidateVisit(ValidateVisitRequest) returns (ValidateVisitResponse);
+}
+
+message ValidateVisitRequest {
+  int32 client_id = 1;
+  int32 workout_id = 2;
+}
+
+message ValidateVisitResponse {
+  bool ok = 1;
+  string message = 2;
+  bool client_exists = 3;
+  bool workout_exists = 4;
+  string client_name = 5;
+  string workout_title = 6;
+  int32 workout_capacity = 7;
+}
